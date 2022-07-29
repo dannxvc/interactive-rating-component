@@ -9,6 +9,7 @@
     padding:  1.55rem;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0 auto;
 }
 .form{
     display: flex;

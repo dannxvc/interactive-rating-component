@@ -27,6 +27,9 @@ body{
     align-items: center;
     font-size: 0.9375rem;
 }
+main{
+    width: 100%;
+}
 h1{
     font-size: 1.5rem;
     margin-top: -0.1rem;
@@ -40,9 +43,10 @@ p{
     line-height: 1.4rem;
 }
 .attribution{
+    position: absolute;
+    bottom: 10rem;
     font-size: .7rem;
     color: var(--light-gray);
-    margin-top: 6rem;
     text-align: center;
 }
 a{
