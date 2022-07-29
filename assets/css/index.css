@@ -1,7 +1,7 @@
 @import url('main.css');
 #form, .thank-you-card{
     background:linear-gradient(120deg, var(--blue-light), var(--blue) 90.71%);
-    height: 22.3rem;
+    height: 30rem;
     width: 88%;
     max-width: 25.5rem;
     border-radius: 1rem;
@@ -27,7 +27,7 @@
     font-family: 'Overpass', sans-serif;
     color: var(--white);
     font-weight: 500;
-    font-size: 1rem;
+    font-size: .9rem;
     cursor: pointer;
     letter-spacing: 0.15rem;
 }
@@ -94,13 +94,13 @@
 .options label::after{
     position: absolute;
 }
-label::before{
+.options label::before{
     top: -.55rem;
     left: 0rem;
     content: "";
     display: inline-block;
-    height: 3.2rem;
-    width: 3.2rem;
+    height:  2rem;
+    width:  2rem;
     background: var(--blue-light);
     border-radius: 50%;  
 }
@@ -109,17 +109,18 @@ label::before{
     top:-.55rem;
     content: "";
     display: inline-block;
-    height: 3.2rem;
-    width: 3.2rem;
+    height: 2rem;
+    width: 2rem;
     background: var(--primary); 
     border-radius: 50%;  
 } 
 span{
     position: absolute;
-    top: 0.6rem;
-    left: 1.35rem;
+    top: 0rem;
+    left: .8rem;
     z-index: 1;
     color: var(--light-gray);
+    font-size: 0.8rem;
 }
 
 @keyframes star {
@@ -132,6 +133,25 @@ span{
     0% {
         transform: scale(1);
       }
+ }
+ @media only screen and (min-width:20rem){
+    #form, .thank-you-card{
+        height: 22.3rem;
+        padding:  1.55rem;
+    }
+    .options label::before{
+        height:  2.7rem;
+        width:  2.7rem; 
+    }
+    .options label::after{
+        height: 2.7rem;
+        width: 2.7rem;
+    }
+    span{
+        top: 0.4rem;
+        left: 1.1rem;
+        font-size: 0.95rem;
+    }
  }
  @media only screen and (min-width:30rem){
     #form, .thank-you-card{
@@ -146,5 +166,20 @@ span{
     .star-icon{
         width: 3rem;
         padding: 1rem;
+    }
+    .options label::before{
+        height: 3.2rem;
+        width: 3.2rem;
+    }
+    .options label::after{
+        height: 3.2rem;
+        width: 3.2rem;
+    } 
+    span{
+        top: 0.6rem;
+        left: 1.35rem;
+    }
+    #submit{
+        font-size: 1rem;
     }
  }

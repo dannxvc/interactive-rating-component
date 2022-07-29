@@ -1,20 +1,20 @@
 @import url('main.css');
 .thank-you-card{
     text-align: center;
-    padding: 3rem 1.75rem;
+    padding: 2rem 1.5rem;
     display: none;
 }
 .thank-you-alert{
     display: flex;
 }
 .thank-you-icon{
-    width: 10rem;
+    width: 9rem;
     margin: 0 auto;
     animation: thanks 2s ease-in-out infinite;
 }
 .thank-you-description{
     color: var(--light-gray);
-    font-size: 0.97rem;
+    font-size: 0.9rem;
 }
 .final-score-description{
     background:var(--blue-light);
@@ -37,3 +37,14 @@
         transform: translateY(0);
       }
  }
+@media only screen and (min-width:30rem){
+    .thank-you-card{
+        padding: 3rem 1.75rem;
+    }
+    .thank-you-icon{
+        width: 10rem;
+    }
+    .thank-you-description{
+        font-size: 0.97rem;
+    }
+}
