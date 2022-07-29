@@ -2,6 +2,10 @@
 .thank-you-card{
     text-align: center;
     padding: 3rem 1.75rem;
+    display: none;
+}
+.thank-you-alert{
+    display: flex;
 }
 .thank-you-icon{
     width: 10rem;

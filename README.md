@@ -32,9 +32,10 @@ Users should be able to:
 - CSS Grid
 ### Useful resources
 
-- Customize Radio Buttons without Compromising Accessibility: [Blog](https://blog.bitsrc.io/customise-radio-buttons-without-compromising-accessibility-b03061b5ba93)
-- Pure CSS: Accessible Checkboxes and Radios Buttons [Blog](https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3)
+- [Customize Radio Buttons without Compromising Accessibility Blog](https://blog.bitsrc.io/customise-radio-buttons-without-compromising-accessibility-b03061b5ba93)
+-  [Pure CSS: Accessible Checkboxes and Radios Buttons Blog](https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3)
 - :checked [Here](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked)
+- [JavaScript innerHTML](https://www.javascripttutorial.net/javascript-dom/javascript-innerhtml/)
 
 ## Author
 

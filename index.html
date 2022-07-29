@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Interactive rating component</title>
-
+  <script defer src="./assets/js/script.js"></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -18,14 +18,14 @@
 </head>
 <body>
 
-  <form id="form">
+  <form id="form" class="form">
     <div class="star-icon-bg"></div>
     <img class="star-icon" src="/assets/img/icon-star.svg" alt="Star icon">
     <h1>How did we do?</h1>
     <p class="description">Please let us know how we did with your support request. All feedback is appreciated 
   to help us improve our offering!</p>
     <div class="options"> 
-        <input id="rate_1" type="radio" value="1" name="rate"/>
+        <input id="rate_1" type="radio" value="1" name="rate" required/>
         <label for="rate_1">1
           <span>1</span>
         </label>
@@ -48,10 +48,10 @@
     </div>
     <input id="submit" type="submit" value="SUBMIT"/>
   </form>
-  <div class="thank-you-card">
+  <div id="thank-you-card" class="thank-you-card">
     <img class="thank-you-icon" src="/assets/img/illustration-thank-you.svg" alt="thank you illustration">
     <div class="final-score-description">
-      You selected <strong id="final-score">2</strong> out of 5
+      You selected <strong id="final-score"></strong> out of 5
     </div>
     <h2>Thank you!</h2>
     <p class="thank-you-description">We appreciate you taking the time to give a rating. If you ever need more support, 
@@ -60,15 +60,7 @@
  
 
 
-  <!-- You selectedout of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-
-  
+  <!-- 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
