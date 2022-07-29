@@ -10,6 +10,7 @@
 .thank-you-icon{
     width: 10rem;
     margin: 0 auto;
+    animation: thanks 2s ease-in-out infinite;
 }
 .thank-you-description{
     color: var(--light-gray);
@@ -25,3 +26,14 @@
     font-size: 0.9rem;
     margin: 0 auto;
 }
+@keyframes thanks {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(1rem);
+    }
+    0% {
+        transform: translateY(0);
+      }
+ }

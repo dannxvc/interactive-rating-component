@@ -1,22 +1,23 @@
 @import url('main.css');
 #form, .thank-you-card{
     background:linear-gradient(120deg, var(--blue-light), var(--blue) 90.71%);
-    height: 26rem;
-    width: 90%;
+    height: 22.3rem;
+    width: 88%;
     max-width: 25.5rem;
-    border-radius: 1.8rem;
+    border-radius: 1rem;
     box-shadow: 1rem 1rem 1rem var(--dark-blue);
-    padding: 1.8rem;
+    padding:  1.55rem;
     flex-direction: column;
     justify-content: space-between;
 }
 .form{
     display: flex;
+    transition: display ease-in-out 5s;
 }
 .form-sent{
     display: none;
+    opacity: 0;
 }
-
 #submit{
     background:var(--primary);
     border: none;
@@ -32,16 +33,17 @@
 }
 .star-icon-bg{
     position: relative;
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     background: var(--blue-light);
     box-shadow: 0.1rem 0.1rem 1rem var(--blue);
 }
 .star-icon{
     position: absolute;
-    width: 3rem;
-    padding: 1rem;
+    width: 2.5rem;
+    padding: 0.8rem;
+    animation: star 2s ease-in-out infinite;
 }
 .description{
     color: var(--light-gray);
@@ -50,6 +52,7 @@
     display: grid;
     grid-auto-flow: column; 
     width: 100%;
+    margin-bottom: 1.2rem;
 }
 .options input[type="radio"] {
     opacity: 0;
@@ -114,7 +117,34 @@ label::before{
 span{
     position: absolute;
     top: 0.6rem;
-    left: 1.3rem;
+    left: 1.35rem;
     z-index: 1;
     color: var(--light-gray);
 }
+
+@keyframes star {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+    }
+    0% {
+        transform: scale(1);
+      }
+ }
+ @media only screen and (min-width:30rem){
+    #form, .thank-you-card{
+        height: 26rem;
+        border-radius: 1.8rem;
+        padding: 2rem 1.8rem;        
+    }
+    .star-icon-bg{
+        width: 3rem;
+        height: 3rem;
+    }
+    .star-icon{
+        width: 3rem;
+        padding: 1rem;
+    }
+ }
