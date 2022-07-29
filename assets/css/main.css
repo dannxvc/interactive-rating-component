@@ -21,6 +21,7 @@ body{
     font-family: 'Overpass', sans-serif;
     color: var(--white);
     min-height: 100vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +45,7 @@ p{
 }
 .attribution{
     position: absolute;
-    bottom: 10rem;
+    bottom: 1rem;
     font-size: .7rem;
     color: var(--light-gray);
     text-align: center;
