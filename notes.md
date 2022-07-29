@@ -1,4 +1,0 @@
-- Customize Radio Buttons without Compromising Accessibility: [Blog](https://blog.bitsrc.io/customise-radio-buttons-without-compromising-accessibility-b03061b5ba93)
-- Pure CSS: Accessible Checkboxes and Radios Buttons [Blog](https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3)
-- JavaScript Radio Button [Blog](https://www.javascripttutorial.net/javascript-dom/javascript-radio-button/)
-- :checked [Here](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked)

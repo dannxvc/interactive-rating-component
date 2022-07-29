@@ -6,6 +6,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -21,6 +23,17 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
+
+### Screenshot
+
+![](/assets/img/solution/screenshot-desktop-thank-you.png)
+![](/assets/img/solution/solution-video.mp4)
+
+### Links
+
+- Solution URL: [Solution FrontendMentor]()
+- Live Site URL: [Danna-Vila-grid-challenge]()
+
 
 ## My process
 
