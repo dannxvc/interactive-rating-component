@@ -1,5 +1,6 @@
 :root{
     --primary:hsl(25, 97%, 53%);
+    --primary-light:hsl(25, 90%, 61%);
     --white:hsl(0, 0%, 100%);
     --light-gray:hsl(217, 12%, 63%);
     --gray:hsl(216, 12%, 54%);
@@ -28,6 +29,10 @@ body{
 h1{
     font-size: 1.8rem;
     margin-top: -0.1rem;
+}
+h2{
+    font-size: 1.7rem;
+
 }
 p{
     margin-top: -2rem;

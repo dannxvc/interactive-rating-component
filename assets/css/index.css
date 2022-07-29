@@ -1,5 +1,5 @@
 @import url('main.css');
-#form{
+#form, .thank-you-card{
     background:linear-gradient(120deg, var(--blue-light), var(--blue) 90.71%);
     height: 26rem;
     width: 90%;
