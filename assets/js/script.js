@@ -16,6 +16,7 @@ formCard.addEventListener("submit", (e)=>{
     e.preventDefault();
     thankYouCard.classList.add('thank-you-alert');
     formCard.classList.add('form-sent');
+    
     let strong = document.createElement('strong');
     strong.textContent = scoreValue();
     finalScore.appendChild(strong);

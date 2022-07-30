@@ -27,12 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](/assets/img/solution/screenshot-desktop.png)
+![](/assets/img/solution/gif_solution.gif)
+
 
 ### Links
 
-- Solution URL: [Solution FrontendMentor]()
-- Live Site URL: [Danna-Vila-grid-challenge]()
+- Solution URL: [Solution FrontendMentor](https://www.frontendmentor.io/solutions/an-interactive-rating-component-developed-with-vanilla-javascript-SNHQShioN6)
+- Live Site URL: [Danna-Vila-grid-challenge](https://danna-interactive-rating-component.pages.dev/)
 
 
 ## My process

@@ -21,7 +21,7 @@ body{
     font-family: 'Overpass', sans-serif;
     color: var(--white);
     min-height: 100vh;
-    max-height: 100vh;
+    max-height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,6 +59,10 @@ a:hover{
     color: var(--primary-light);
 }
 @media only screen and (min-width:30rem){
+    body{
+        min-height: 100vh;
+        max-height: auto;
+    }
     h1{
         font-size: 1.8rem;
     }
